@@ -1,4 +1,4 @@
-# Credential-Pursuit
+# Credential-Pursuit (made for DeltaHacks 11)
 This simple game teaches youth important account security practices.
 
 ## Inspiration
