@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credential Pursuit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image-container">
+        <img id="level-image" src="/images/G-Huang.png" alt="G-Huang Case File">
+    </div>
+
+    <div class="container">
+        <h1 id="level-title">Level 1</h1> <!-- Level Title -->
+
+        <p id="attempts">Attempts left: 7</p> <!-- Attempt counter -->
+
+        <!-- Hint Section -->
+        <div id="hint" style="display: none;">
+            <p><strong>Hint:</strong> My dog's name followed by a few numbers</p>
+        </div>
+
+        <!-- Login Form -->
+        <form id="loginForm">
+            <label for="username">Username or email:</label>
+            <input type="text" id="username" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Result Message -->
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
