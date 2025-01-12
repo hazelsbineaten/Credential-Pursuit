@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000; /* Deep black background */
+    color: #00ffff; /* Neon cyan text color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo Container */
+.logo-container {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.logo-container img {
+    width: 100%; /* Scales with window */
+    max-width: 300px;
+    height: auto;
+    border: 3px solid #00ffff; /* Neon cyan border */
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff00ff, 0 0 10px #00ffff; /* Neon glow effect */
+}
+
+/* Container Styles */
+.container {
+    margin: 20px auto;
+    padding: 5px;
+    max-width: 600px;
+    border: 2px solid #00ffff;
+    background-color: #111; /* Slightly lighter black */
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff00ff, 0 0 10px #00ffff;
+}
+
+/* Button Styles */
+button {
+    background-color: #ff00ff; /* Neon magenta */
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px #ff00ff;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ffff; /* Neon cyan on hover */
+    color: #111; /* Contrast text color */
+    box-shadow: 0 0 20px #00ffff, 0 0 10px #ff00ff;
+}
+
+/* Text for Emphasis */
+h1 {
+    color: #ff00ff; /* Neon magenta */
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #00ffff;
+}
+
+/* In-Game Image Container */
+.image-container {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%; /* Reduce width to scale in-game images */
+    max-width: 1050px; /* Set a maximum width */
+    height: auto;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffff, 0 0 5px #ff00ff; /* Subtle glow effect */
+}
